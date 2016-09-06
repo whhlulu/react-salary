@@ -1,0 +1,36 @@
+.header{
+  background-color: #f6f6f6;
+  height: 44px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 20;
+  text-align: center;
+  display: table;
+  border-bottom: 2px solid #e2e2e2;
+}
+.header #title{
+  line-height: 44px;
+  color: #000000;
+}
+.header #back{
+  position: absolute;
+  left: 0px;
+  line-height: 44px;
+  padding: 0px 15px;
+}
+.header #back img{
+  width: 8px;  height: 14px;
+  vertical-align: middle;
+}
+.header #close{
+  position: absolute;
+  right: 0px;
+  line-height: 44px;
+  padding: 0px 15px;
+}
+.header #close img{
+  width: 18px;
+  height: 17px;
+  vertical-align: middle;
+}

@@ -1,0 +1,43 @@
+.picker-main{
+    position: fixed;
+    bottom: 0;
+    top:46px;
+    left:0;
+    right: 0;
+    z-index: 19;
+    background: rgba(0,0,0,.5);
+    overflow: hidden;
+    display: none;
+}
+.picker-main .top-box{
+    height:calc(100% - 290px);
+    width: 100%;
+}
+.picker-modal-con{
+    background-color: #e2e6e9;
+    height:290px;
+    position: fixed;
+    bottom: 0;
+    z-index: 20;
+    width: 100%;
+}
+.picker-modal{
+    margin: 12px 0;
+}
+.picker-container .picker-inner{
+    padding: 0;
+}
+.picker-highlight{
+    background-color: #d0d5da;
+    z-index: -1;
+}
+.birth-ok{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    background-color: #fe821e;
+}
